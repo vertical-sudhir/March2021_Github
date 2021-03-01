@@ -1,0 +1,88 @@
+Git Hub-- (github.com)
+
+-it is a memory that stores all Project Files.
+-it is Central Repository.
+
+- 
+
+- Diffren Code Repository? 
+ - SVN, GitHub, Bitbucket etc.
+
+
+#) HEAD
+#) Tag
+#) Branch
+will mentain by QM (Quality Manager.)
+
+**) Download and Install git (open git bash..) 
+1) Create Account on github.com
+
+Operations on Git Hub
+
+1) PUSH : we can send our Sysytem Files(Project) to github.
+2) PULL : we can fetch other developers module files.
+3) ADD : sending our files from workspace to staging area.
+4)COMMIT : sending Stage Area files to Loacal Repository. 
+
+#) Stage Area -- Area between Workspace and .get
+#) .git  (Local Repository) (Local Machine)
+#)github - (Central REpository) (github.com)
+
+
+
+----------Git operation ------------------
+1)add=> Write the code into Workspace then send it to stage area. 
+   Sending our files to staging it's call as ADD operation
+   - Stage Area is Verification Area.
+
+
+2)commit=> Stage area files will be moved it to Local Repository (.git) .
+3)push => Local Repository (.git) files sending to Remote Repository (github account)
+4)pull => Fetch Files from Central Repository to Our Local Repository.
+5)merge/Rebase => After pull we have to perform merge operation 
+     - Update the file's from Local Repository (.git). to Workspace.
+
+# While first time creating project  stage area will not involve -- directly we can create local Repository
+
+ while sending the files Stage area will involves.
+
+  
+   rebase -- some times conflicts comes then we have to perform Rebase operation
+
+Steps to Follow :-
+1)  Create github Account.
+    SignUp=>
+    Create Account=>
+    Complete Setup=>
+    Verify Your Email Address=>
+
+    Logout and Login Again=> github.com
+
+ 2) Create Repository=>
+    Select Public Option => Create Repository.
+
+2)  and there we need to create Remote Repository. (Repository is similar to Project)
+3) and the Create Local Repository and then Perform Operations.
+
+***)
+
+#) Open Git bash terminal and follow below cammands
+1)git config --global user.name Sudhir
+2)git config --global user.email vertical.sudhir@gmail.com
+
+to check it is set or not 
+> git config --global user.email
+> git config --global user.name
+
+>code . => will open Visual Studio Code
+
+Cloning & init 
+
+init- will initalize from Start 
+cloning  - will clone from repository.
+
+
+1> git init  => initalize Local Repository.
+> ls -lart  => it show all content/files
+
+
