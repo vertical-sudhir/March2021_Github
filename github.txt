@@ -141,6 +141,36 @@ cloning  - will clone from repository.
 .....to add local Repository to Remote Reposiitory  
 
 
+
+#) To create new Branch 
+>git branch <branch_name>
+i.e git branch feature1
+#) to switch in to that branch 
+> git checkout <branch_name>
+i.e git checkout feature1
+#) directly create a new Branch and Switch into that branch
+> git checkout -b <branch_name>
+
+**) now you want to add your updates into master branch ...
+
+thn follow 
+1) first come to master branch
+> git checkout master
+then 
+> git merge feature1
+... it will update all updates of feature1 branch to master branch.
+
+#)git clone "repo name"
+
+this is used to clone any Remote Repository to Your Local System.
+1) create one folder where you want to .. clone that repository ..
+2) open git bash at that folder
+and run below command
+> git clone <repository-name(path)>
+
+
+
+
 ----------------------------------------------------------------------------------
 
 
