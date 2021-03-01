@@ -128,6 +128,20 @@ cloning  - will clone from repository.
 
 > git rm <file name> ==> will delete and also remove from git Staging area
 
+> touch .gitignore    ==> will ignore the file from staging area
+  > git checkout <filename>   
+
+   -- will ignore the file from staging area..
+    -- also we can add folder to skip..
+  --also we can add to skip all file of perticular type  ..like .doc all file if we want to exclude then 
+   "*.doc"
+
+> git remote add origin "repo name"
+> git push origin master  (Here it will ask Email and Password....for authentication Purpose)
+.....to add local Repository to Remote Reposiitory  
+
+
+----------------------------------------------------------------------------------
 
 
 
