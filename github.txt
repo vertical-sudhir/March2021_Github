@@ -85,4 +85,71 @@ cloning  - will clone from repository.
 1> git init  => initalize Local Repository.
 > ls -lart  => it show all content/files
 
+1) Untracked -- the files not related to git, 
+2) Unmodified -- once we added the file into stage, it means it is under git observation.
+               and it added into unmdified Stage.. 
+               and once we make any changes /edit 
+               from here we can remove the file also.
+
+3) Modified  -- once we modified any file of unmodified stage it will come to modified area..
+             from here it will send back to staged area.
+
+
+4) Staged -- after  staged we cave to commit the changes , and the again file goes to unmodified area.
+
+
+> git status   .... will show all files of Local Repository (Untracked Files)
+
+>git add <filename>  --- file moves to stageing area.
+
+  i.e git add index.html  
+
+>git commit   --- to start project tracking we have to commit it (and that is initial commit)
+   => it opens VM Editor 
+   => Press "i" to write => and then give msg of commit.. like what changes you made..
+   => then press "Esc" => :wq => "Enter"
+
+> git add -A  => to add all files to stage area
+
+
+> git commit -m "msg"
+
+> git checkout <file name> ==> to recover single file. will matching with last commit  
+
+> git checkout -f ===> to recover all files with matching  last commit.
+
+> git log ==> will give details about whatever we commited..
+
+> git log -p ==> will give last commit details only, with changes details 
+
+> q   => to  exit
+
+> git diff => will compare working Area with stagging area..
+
+> git rm <file name> ==> will delete and also remove from git Staging area
+
+
+
+
+
+1) git config --global user.email "vertical.sudhir@gmail.com"
+
+2) git config --global user.name "Sudhir Atkire"
+
+3) git init 
+
+4) git status
+
+5) git add [file name] || -A
+
+6) git status
+
+7) git commit -m "msg"
+
+8) git remote add origin "repo name"
+
+9) git push origin master
+
+10) git clone "repo name"
+
 
